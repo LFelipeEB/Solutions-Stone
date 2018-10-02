@@ -1,0 +1,16 @@
+{
+    "name": "lfeli/solutions",
+    "description": "'Projeto para Teste da Vaga de Solutions na Pagarme'",
+    "type": "project",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Luiz Felipe Evaristo",
+            "email": "lfelipeeb@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "vlucas/phpdotenv": "^2.5@dev"
+    }
+}

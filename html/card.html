@@ -1,0 +1,56 @@
+<form>
+
+    <div class="input-field">
+        <i class="fa fa-credit-card prefix"></i>
+        <input id="number_card" type="text" class="validate" value="5295187570000081">
+        <label for="number_card">Número do cartão</label>
+    </div>
+
+    <div class="input-field">
+        <i class="fa fa-id-card prefix"></i>
+        <input id="name_card" type="text" class="validate" value="L FELPE EVARISTO B">
+        <label for="name_card">Nome impresso no cartão</label>
+    </div>
+
+    <div class="row">
+        <div class="input-field col s6">
+            <i class="fa fa-calendar-alt prefix"></i>
+            <input id="date_card" type="text" class="validate" value="1122">
+            <label for="date_card">Data de expiração</label>
+        </div>
+
+        <div class="input-field col s6">
+            <i class="fa fa-lock prefix"></i>
+            <input id="cvv_card" type="text" class="validate" value="046">
+            <label for="cvv_card">CVV</label>
+        </div>
+    </div>
+
+    <div class="input-field">
+        <i class="fa fa-money-bill prefix"></i>
+        <input id="amount_card" type="text" class="validate" value="500">
+        <label for="amount_card">valor da Cobrança:</label>
+    </div>
+
+    <div class="row">
+    <div class="input-field col s6">
+        <i class="fa fa-university prefix"></i>
+        <select name="95percents" id="95percents">
+        </select>
+        <label>Franqueador: (95%)</label>
+    </div>
+
+    <div class="input-field col s6">
+        <i class="fa fa-university prefix"></i>
+        <select name="5percents" id="5percents">
+        </select>
+        <label>Franquado: (5%)</label>
+    </div>
+    </div>
+
+    <br>
+
+    <div class="center-align">
+    <button type="button" class="waves-effect waves-light btn btn-large btn-primary" id="confirm-card">Efetuar Cobrança</button>
+    </div>
+</form>
